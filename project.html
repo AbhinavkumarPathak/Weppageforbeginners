@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey_Form</title>
+    <meta name="viewport" content="width=device-width, initial-scaled=1, user-scalable=no" />
+    <link href="project.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Survey Form</h1>
+        <h2 id="subheading"><i>Thank you for taking the time to give your response</i></h2>
+    </div>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="video (2160p).mp4" type="video/mp4">
+      </video>
+    <form>
+        <div id="content1">
+            <label>Name</label> <br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+            <label>Email</label> <br><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+            <label>Age (optional)</label> <br><br>
+            <input type="age" name="age" placeholder="Enter your age" class="box"> <br><br>
+            <label>Which option best describes your current role?</label><br><br>
+        
+        <div id="optional">
+            <select>
+                <option name="Select Your Role"></option>
+                <option value="Student">Student</option>
+                <option value="Social Worker">Social Worker</option>
+                <option value="Prefer Not to say">Prefer Not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <label id="head1">Where is the largest forest of India?</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspPunjab<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMizoram<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMadhya Pradesh<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspKerala<br> <br>
+        <br>
+        <label id="head1">What is the rate of afforestation in India?</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp25.5%<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp30%<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp10%<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp24.6%<br> <br>
+        <br>
+        <label id="head1">'India State of Forest Report' has been published by?</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMoEFCC<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFSI<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNITI Aayog<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNone of the Above<br> <br>
+        <br>
+        <label id="head1">What do you think about forest deforestation?</label> <br> <br>
+        <textarea rows="3" cols="40" placeholder="Write here....."></textarea> <br>
+        <br>
+        <label id="head1">How we can reduce forest defforestation?</label> <br> <br>
+        <textarea rows="3" cols="40" placeholder="Write here....."></textarea> <br>
+        <br>
+        <label id="head1">ISFR published is a/an</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspAnnually<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspBiennial<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspBiennial<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFive Yearly<br> <br>
+        <br>
+        <label id="head1">Would you recommend this survey form to a friend?</label> <br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br> <br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot sure<br> <br>
+        <label>What is your favourite feature of this site?</label>
+        <div id="option2">
+            <select>
+                <option name="Select an option">Select an option</option>
+                <option name="Animation">Animation</option>
+                <option name="Survey">Survey</option>
+                <option name="Login Page">Login Page</option>
+                <option name="Open Source">Open Source</option>
+            </select>
+        </div>
+        <br><br>
+        <label id="head2">Any comments or suggestion?</label> <br><br>
+        <textarea rows="10" cols="80" placeholder="Enter Your Comments Here....."></textarea> <br>
+        <label id="head2"></label>
+        <button><h3>Submit</h3></button>
+    </form>
+</body>
+</html>
